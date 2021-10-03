@@ -1,10 +1,9 @@
 /*
 * @file         fonts.h 
 * @brief        字库
-* @details      用户应用程序的入口文件,用户所有要实现的功能逻辑均是从该文件开始或者处理
-* @author       红旭团队 
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
 * @par Copyright (c):  
-*               红旭无线开发团队，QQ群：671139854
+*               LBDLMOS
 */
 #ifndef FONTS_H
 #define FONTS_H 120

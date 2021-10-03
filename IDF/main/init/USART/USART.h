@@ -1,12 +1,12 @@
 #ifndef USART_H
 #define USART_H
-
-/**
-文件名：USART.h
-文件说明：usart
-修改时间：
-共3个函数：函数名（参数）（解释）
-**/
+/*
+* @file         USART.h
+* @brief        usart初始化
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+*/
 
 //导入
 #include <stdio.h>
