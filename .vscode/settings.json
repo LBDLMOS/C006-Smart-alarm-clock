@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "gpio_init.h": "c",
+        "gpio.h": "c",
+        "cstdio": "c",
+        "fonts.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
