@@ -6,5 +6,6 @@
         "cstdio": "c",
         "fonts.h": "c"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.sourceDirectory": "${workspaceFolder}/IDF"
 }
