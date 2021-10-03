@@ -2,7 +2,7 @@
 
 #### 介绍
 ESP32智能闹钟
-在响铃同时移动，并自动避障，用户必须抓到后计算一道数学题方可解除，防止贪睡/n软硬件综合项目,支持多组闹钟设定，贪睡模式，避障车模式，强制清醒模式，贪睡模式等
+在响铃同时移动，并自动避障，用户必须抓到后计算一道数学题方可解除，防止贪睡\n软硬件综合项目,支持多组闹钟设定，贪睡模式，避障车模式，强制清醒模式，贪睡模式等
 
 #### 软件架构
 C语言
@@ -24,20 +24,26 @@ ESP32-IDF开发
 4.  新建 Pull Request
 
 #### 项目地址
-[Github](https://github.com/LBDLMOS/C005-Smart-alarm-clock)/n
+[Github](https://github.com/LBDLMOS/C005-Smart-alarm-clock)\n
 [Gitee](https://gitee.com/LBDLMOS/C005-Smart-alarm-clock)
 
 #### 文件结构
-  ----主目录/n
-    ----IDF版/n
-        ----main/n
-            ----驱动/n
-    ----Arduino版/n
-    ----PCB文件/n
+├── 主目录                   
+├── Arduino版                         
+├── nain.c 
+├── 驱动
+│   ├── GPIO
+│   ├── IIC               
+│   ├── EC11         
+│   ├── TOUCH                
+│   ├── WIFI             
+│   ├── USART         
+│   └── OTHER
+├── PCB文件
 
 #### 特别感谢
-以下文件中部分内容为引用，特此感谢
-GPIO_init.c:步进电机驱动部分摘自doyoung.net
-EC11.c:EC11驱动部分摘自doyoung.net
-IIC.c:oled驱动摘自红旭无线开发团队，QQ群：671139854
+以下文件中部分内容为引用，特此感谢\n
+GPIO_init.c:步进电机驱动部分摘自doyoung.net\n
+EC11.c:EC11驱动部分摘自doyoung.net\n
+IIC.c:oled驱动摘自红旭无线开发团队，QQ群：671139854\n
 fonts.c:来自Tilen Majerle,Alexander Lutsai
