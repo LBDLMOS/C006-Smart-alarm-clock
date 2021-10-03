@@ -28,3 +28,18 @@ ESP32-IDF开发
 #### 项目地址
 [Github](https://github.com/LBDLMOS/C005-Smart-alarm-clock)
 [Gitee](https://gitee.com/LBDLMOS/C005-Smart-alarm-clock)
+
+#### 文件结构
+  ----主目录
+    ----IDF版
+        ----main
+            ----驱动
+    ----Arduino版
+    ----PCB文件
+
+#### 特别感谢
+以下文件中部分内容为引用，特此感谢
+GPIO_init.c:步进电机驱动部分摘自doyoung.net
+EC11.c:EC11驱动部分摘自doyoung.net
+IIC.c:oled驱动摘自红旭无线开发团队，QQ群：671139854
+fonts.c:来自Tilen Majerle,Alexander Lutsai

@@ -1,12 +1,13 @@
 #ifndef __EC11_H
 #define __EC11_H	 
 
-/**
-文件名：IIC.h
-文件说明：IIC初始化
-修改时间：
-共2个函数：函数名（参数）（解释）
-**/
+/*
+* @file         EC11.h
+* @brief        EC11初始化
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+*/
 
 //导入
 #include <stdio.h>

@@ -1,12 +1,16 @@
-/**
-文件名：
-文件说明：
-修改时间：
-共0个函数：函数名（参数）（解释）暂时废弃
-**/
+/*
+* @file         WIFI.c
+* @brief        wifi初始化暂时放弃
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+*/
 
 //导入
 
 
-//函数声明
-//函数1
+/*
+* 
+* @param[in]   void  		       :无
+* @retval      void                :无
+*/

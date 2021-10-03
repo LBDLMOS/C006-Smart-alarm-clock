@@ -1,19 +1,23 @@
-/**
-文件名：GPIO_init.c
-文件说明：io初始化
-修改时间：21.7.29-23.53
-共3个函数：函数名（参数）（解释）
-**/
+/*
+* @file         EC11.c
+* @brief        EC11初始化
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+                EC11驱动部分摘自doyoung.net
+*/
 
 //导入
 #include "EC11.h"
 u8 KUP;//旋钮锁死标志（1为锁死）
 u16 cou;
 
-/**函数1：gpio初始化(已在其他函数中调用)
-参数：
-返回值:
-**/
+/*
+* ec11-gpio初始化
+* @param[in]   void  		       :无
+* @retval      void                :无
+*/
+
 void ENCODER_Init(void){ //接口初始化
 	gpio_reset_pin(ENCODER_L);
     gpio_set_direction(ENCODER_L, GPIO_MODE_INPUT);
@@ -25,10 +29,13 @@ void ENCODER_Init(void){ //接口初始化
     gpio_set_direction(ENCODER_R, GPIO_MODE_INPUT);			
 }
 
-/**函数2：EC11读取
-参数：
-返回值:1左2右3按0无
-**/
+
+/*
+* iic read 
+* @param[in]   void  		       :无
+* @retval      void                :1左2右3按0无
+*/
+
 u8 ENCODER_READ(void){ //接口初始化
 	u8 a;//存放按键的值
 	u8 kt;

@@ -1,6 +1,7 @@
-/**
-文件名：TOUCH.c
-文件说明：触摸驱动
-修改时间：
-共0个函数：函数名（参数）（解释）暂时废弃
-**/
+/*
+* @file         TOUCH.c
+* @brief        触摸驱动暂时废弃
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+*/
