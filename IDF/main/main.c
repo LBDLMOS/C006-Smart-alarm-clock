@@ -1,8 +1,10 @@
-/**
-文件名：main.c
-文件说明：主函数
-修改时间：
-**/
+/*
+* @file         mian.c 
+* @brief        主函数
+* @author       LBDLMOS（email:my@lbdlmos.cf,qq:334482015）
+* @par Copyright (c):  
+*               LBDLMOS
+*/
 
 //导入
 #include <stdio.h>
